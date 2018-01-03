@@ -31,8 +31,10 @@
     为了在任何位置都能使用latexdiff，我们将Ctex的miktex和Perl的bin目录写进系统变量Path中，比如笔者的路径为：C:\CTEX\MiKTeX\miktex\bin 和 C:\Perl64\bin
     
 5，完成上述步骤后，在命令行中输入`latexdiff`，如果输出如步骤1中图示，那么恭喜你，你已经可以使用`latexdiff`了，如果提示：
+
 latexdiff: The Perl script could not be found.  
 latexdiff: Data: scripts/latexdiff/perl/latexdiff.pl
+
 别着急，请继续往下看！
 
 6，上面的报错提示是说在所在目录下找不到要用的latexdiff.pl，那么我们顺着这个目录进入scripts/latexdiff会发现在该目录下有一系列以latexdiff开头的没有后缀的文件，而并没有Perl这个文件夹（或者这个文件夹内什么都没有）。创建这个文件夹，把所有以latexdiff开头的文件复制进Perl文件夹，然后给它们都加上`.pl`的后缀。
