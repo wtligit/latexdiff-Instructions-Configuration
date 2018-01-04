@@ -38,7 +38,7 @@ latexdiff: Data: scripts/latexdiff/perl/latexdiff.pl
 别着急，请继续往下看！
 
 6，上面的报错提示是说在所在目录下找不到要用的latexdiff.pl，那么我们顺着这个目录进入scripts/latexdiff会发现在该目录下有一系列以latexdiff开头的没有后缀的文件，而并没有Perl这个文件夹（或者这个文件夹内什么都没有）。创建这个文件夹，把所有以latexdiff开头的文件复制进Perl文件夹，然后给它们都加上`.pl`的后缀。
-当然也可以在 https://www.ctan.org/tex-archive/support/latexdiff 网站下载latexdiff前缀的文件放到Perl中,或者在我的[Github]里直接下载(https://github.com/wtligit/latexdiff-Instructions-Configuration/tree/master/perl)。
+当然也可以在 https://www.ctan.org/tex-archive/support/latexdiff 网站下载latexdiff前缀的文件放到Perl中,或者在我的[Github](https://github.com/wtligit/latexdiff-Instructions-Configuration/tree/master/perl)里直接下载。
 两种方法都可以，我们的目的就是让latexdiff可以在正确的位置存在并被找到。
 
 7，此时在命令行输入`latexdiff`，如果输出如步骤1中图示，那么恭喜你，你已经可以使用`latexdiff`了，如果依然提示找不到 latexdiff.pl ,请在 开始菜单\CTeX\MiKTeX\Maintenance(Admin) 中找到**Setting(Admin)**,然后更新`FNDB`。
