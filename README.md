@@ -9,8 +9,11 @@
 
 但是latexdiff的使用往往不是一帆风顺的，有几个经常遇到的问题，如：
 1，**>**符号前忘记加空格
+
 2，生成的tex文件在编译的时候，标题处喜欢报错，删除之
+
 3，生成的tex文件总是报**Missing \begin{document}**错误，新建个文件把内容都拷贝进去，再编译即可
+
 4，**latexdiff：The Perl script could not be found**，下文详述
 
 
