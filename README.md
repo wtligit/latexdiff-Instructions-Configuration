@@ -8,6 +8,7 @@
 ![Res](https://raw.githubusercontent.com/wtligit/pic/master/latexdiff/Res.png)
 
 但是latexdiff的使用往往不是一帆风顺的，有几个经常遇到的问题，如：
+
 1，**>**符号前忘记加空格
 
 2，生成的tex文件在编译的时候，标题处喜欢报错，删除之
